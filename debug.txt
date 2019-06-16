@@ -1,0 +1,8 @@
+file Work is open
+sdsds sss
+Thats a result of work :
+sdsds sss 
+Thats was readed from work.txt:
+work close
+work open
+sdsds sss 

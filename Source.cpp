@@ -1,33 +1,13 @@
 
 #include "Header.h"
 
-
-
-
-
 int main() {
-	//створити 3 потока і передавати у функції які треба
-	fstream input("input.txt", ios::out);
-	fstream work("work.txt");
-	ofstream debug("debug.txt");
-
 	
-
-
-	k_inp(input);
-
-	/*while (true) {
-		int  inp;
-		cin >>  inp;
-
-	}*/
-
+	fstream input("input.txt", std::ios::app);
+	fstream work("work.txt", ios::trunc);
+	ofstream debug("debug.txt", std::ios::trunc);
 	
-	
-	
-
-
-
-
+	k_inp(input , true);
+	working(input, work, debug);
 	return 0;
 }
